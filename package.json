@@ -1,5 +1,5 @@
 {
-  "name": "vite-vanilla-ts",
+  "name": "coolify-vite-example",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,15 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.3.4"
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
   }
 }
